@@ -1,0 +1,24 @@
+# Order System (Java)
+
+## Overview
+A simple order system implemented in Java demonstrating:
+
+- Object-Oriented Design
+- Strategy Pattern (Payment)
+- Factory Pattern
+
+## Features
+- Create orders
+- Add products
+- Calculate total price
+- Pay with different strategies
+
+## Run
+
+```bash
+javac -d out src/main/java/edu/orderSys/**/*.java
+java -cp out edu/orderSys.MainApp
+
+Design Patterns
+Strategy Pattern
+Factory Pattern
