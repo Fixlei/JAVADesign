@@ -1,1 +1,1 @@
-rootProject.name = "orderSys_MVC"
+rootProject.name = "order-sys-mvc"

@@ -1,7 +1,11 @@
 package edu.orderSys;
 
-import edu.orderSys.model.*;
-import  edu.orderSys.service.*;
+import edu.orderSys.model.Order;
+import edu.orderSys.model.Product;
+import edu.orderSys.model.User;
+import edu.orderSys.service.OrderService;
+import edu.orderSys.service.PaymentFactory;
+import edu.orderSys.service.PaymentStrategy;
 
 public class MainApp {
   public static void main(String[] args) {
@@ -19,7 +23,7 @@ public class MainApp {
 
     System.out.println("Total: " + order.calculateTotal());
 
-    PaymentStrategy strategy = PaymentFactory.getStrategy("ALIPAY");
+    PaymentStrategy strategy = PaymentFactory.getStrategy("ApplePay");
     strategy.pay(order);
 
     System.out.println("Order Status: " + order.getStatus());

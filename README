@@ -16,8 +16,8 @@ A simple order system implemented in Java demonstrating:
 ## Run
 
 ```bash
-javac -d out src/main/java/edu/orderSys/**/*.java
-java -cp out edu/orderSys.MainApp
+javac -d out src/main/java/edu/order-sys-mvc/**/*.java
+java -cp out edu/order-sys-mvc.MainApp
 
 Design Patterns
 Strategy Pattern
